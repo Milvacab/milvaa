@@ -1,0 +1,18 @@
+.fit-cover {
+  object-fit: cover;
+}
+
+@media (min-width: 1200px) {
+  body {
+    background: var(--bs-body-bg);
+    color: var(--bs-body-bg);
+  }
+}
+
+body {
+  color: var(--bs-secondary-bg);
+  background: url("../../assets/img/raphael-wicker-P6JRr7-FxLw-unsplash.jpg"), var(--bs-secondary-color);
+  border-color: rgb(255,255,255);
+  opacity: 1;
+}
+
